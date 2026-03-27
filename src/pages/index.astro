@@ -1,0 +1,17 @@
+---
+// Bagian ini memanggil mesin React lama Anda
+import App from '../App.tsx'; 
+---
+
+<html lang="id">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>KNLM</title>
+  </head>
+  <body class="bg-slate-50 text-slate-900 m-0 p-0">
+    
+    <App client:only="react" />
+    
+  </body>
+</html>
